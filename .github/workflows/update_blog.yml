@@ -22,8 +22,8 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git pull --rebase https://${{ secrets.ACCESS_TOKEN }}@github.com/kgy1008/blog.git main
-        git push https://${{ secrets.ACCESS_TOKEN }}@github.com/kgy1008/blog.git
+        git pull --rebase https://${{ secrets.ACCESS_TOKEN }}@github.com/wldks1008/blog.git main
+        git push https://${{ secrets.ACCESS_TOKEN }}@github.com/wldks1008/blog.git
 
     - name: Set up Python
       uses: actions/setup-python@v2
